@@ -5,11 +5,11 @@ import "../style/Navbar.css";
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className="nav-container">
+      <nav className="ui small menu">
         <div>
           <svg
-            width="106"
-            height="73"
+            width="55"
+            height="43"
             viewBox="0 0 106 73"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -57,19 +57,31 @@ export default class Navbar extends Component {
             </defs>
           </svg>
         </div>
-        <ul>
-          <Link to="/">Home</Link>
+        <div className="right menu">
+          <div className="ui dropdown item">
+            Menu <i className="dropdown icon"></i>
+            <div className="menu">
+              <Link to="/" className="item">
+                Home
+              </Link>
 
-          <Link to="/about">About Us</Link>
+              <Link to="/about" className="item">
+                About Us
+              </Link>
 
-          <Link to="/contact">Contact</Link>
+              <Link to="/contact" className="item">
+                Contact
+              </Link>
+              <Link to="/services" className="item">
+                Services
+              </Link>
+            </div>
+          </div>
 
-          <Link to="/services">Services</Link>
-
-          <Link to="/donate">
-            <button>Make A Donation</button>
+          <Link to="/donate" className="item">
+            <button className="ui primary button">Make A Donation</button>
           </Link>
-        </ul>
+        </div>
       </nav>
     );
   }
