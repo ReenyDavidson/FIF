@@ -111,14 +111,6 @@
   transition: 0.2s linear;
 }
 
-.flex-item:hover {
-  background-color: rgba(10, 31, 150);
-}
-
-.ab3text:hover {
-  color: white;
-}
-
 .line {
   width: 0.3%;
   margin-right: 10%;
