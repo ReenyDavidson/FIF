@@ -17,7 +17,7 @@ function About() {
       </div>
       <div className="ui stackable two column grid">
         <div className="column">
-          <h3 className="about2-h3">LITTLE ABOUT US :</h3>
+          <h3 className="about2-h3">ABOUT US :</h3>
           <h1 className="about2-h1">
             FOLUKE IDOWU'S INDEPENDENT LIVING PROGRAM
           </h1>
@@ -36,6 +36,9 @@ function About() {
         </div>
       </div>
       <div className="about3">
+        <div>
+          <h1 className="about3-h1">What is Foluke Idowu Foundation (FIF)?</h1>
+        </div>
         <div className="ui stackable three column grid">
           <div className="column">
             <div className="ui segment">
