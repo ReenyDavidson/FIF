@@ -1,0 +1,137 @@
+.home1 {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to left,
+      rgba(10, 31, 150, 0.6),
+      rgba(5, 5, 5, 0.73)
+    ),
+    url("../images/fif9.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.home1-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+}
+
+.home1-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-top: -3%;
+  color: hotpink;
+}
+
+.home1-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.inner-home1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home1-button {
+  margin-top: 5%;
+  width: 30%;
+  height: 40px;
+  border: none;
+  background-color: hotpink;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  border-radius: 7rem;
+}
+.home2 {
+  height: 100%;
+}
+.home2-h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+
+  width: 40%;
+}
+.home2-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+.home2text {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: rgba(10, 31, 150);
+  margin-top: 30px;
+}
+
+.home2-icon {
+  width: 30%;
+  margin-top: 30px;
+}
+
+.home2-item {
+  flex-basis: 25%;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px;
+  transition: 0.2s linear;
+
+  height: 50vh;
+  border-radius: 4rem;
+}
+
+.home2-line {
+  margin: 0 auto;
+  margin-top: 4%;
+  width: 50%;
+  height: 4px;
+  background-color: rgba(10, 31, 150);
+}
+
+.home3 {
+  height: 100%;
+  background-image: linear-gradient(to left, #ffffffcc, #ffffffcc),
+    url("../images/fif2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.home3-image {
+  width: 70%;
+}
+
+.home3-p {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-top: 1rem;
+  font-weight: 200;
+}
+
+.home3-h1 {
+  font-size: 3rem;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.home3-line {
+  width: 0.3%;
+  height: 50vh;
+  margin-right: 10%;
+  margin-top: 5%;
+  background-color: white;
+}

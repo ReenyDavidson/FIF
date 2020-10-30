@@ -1,0 +1,60 @@
+.footer {
+  background-color: white;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer-icon {
+  width: 5%;
+  margin-left: 10px;
+}
+
+.footer-h1 {
+  font-size: 3rem;
+  color: rgba(10, 31, 150);
+  font-family: "Share", cursive;
+}
+
+.footer-p {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-top: 1rem;
+  font-weight: 200;
+}
+
+.footer-link h1 {
+  margin-left: 10rem;
+
+  font-size: 3rem;
+  color: rgba(10, 31, 150);
+  font-family: "Share", cursive;
+}
+
+.footer-link ul li {
+  margin-left: 10rem;
+  list-style: none;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.footer-social {
+  background-color: maroon;
+}
+
+.footer-social h1 {
+  font-size: 3rem;
+  color: rgba(10, 31, 150);
+  font-family: "Share", cursive;
+  margin-left: 20rem;
+}
+
+.footer-social p {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-top: 4rem;
+  font-weight: 200;
+  margin-left: 4rem;
+}
