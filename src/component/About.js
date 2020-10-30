@@ -1,8 +1,9 @@
 import React from "react";
 import fif26 from "../images/fif26.jpg";
-import donate from "../images/donate.png";
-import volunteer from "../images/volunteer.png";
+import engineering from "../images/engineering.png";
+import motivate from "../images/motivate.png";
 import partnership from "../images/partnership.png";
+import community from "../images/community.png";
 
 import "../style/About.css";
 
@@ -38,19 +39,38 @@ function About() {
         <div className="ui stackable three column grid">
           <div className="column">
             <div className="ui segment">
-              <img src={donate} alt="image" className="about-icon" />
+              <img src={engineering} alt="image" className="about-icon" />
               <p className="ab3text">
-                Contribute by donating to FIF, you will make a difference in the
-                lives of persons with spinal cord injuries, carers and families
-                in need.{" "}
+                The big next step to build on the successes of ILP and integrate
+                it into a Foundation in memory of this visionary woman as a way
+                of keeping her legacy alive. It is an initiative of Fouke’s
+                family, friends and supporters to replicate and integrate ILP’s
+                partners and advance new frontiers in the care and management of
+                PwD, their families and careers.
               </p>
             </div>
           </div>
           <div className="column">
             <div className="ui segment">
-              <img src={volunteer} alt="image" className="about-icon" />
+              <img src={community} alt="image" className="about-icon" />
               <p className="ab3text">
-                Contribute by volunteering your Skills, expertise and time.
+                Towards this end, we are reaching out to institutions, Persons
+                with Disabilities (PwD) and other existing groups that undertake
+                projects this nature. This proposal envisions the creation of
+                "community-based independent living groups," which will
+                demonstrate to communities the concept of inclusion and
+                community based care.
+              </p>
+            </div>
+          </div>
+          <div className="column">
+            <div className="ui segment">
+              <img src={motivate} alt="image" className="about-icon" />
+              <p className="ab3text">
+                To form these "Independent Living Centers," as she called them,
+                Foluke designed a model educational facility that will train
+                People with various forms of Disabilities and the rest of the
+                community - young and old, together.
               </p>
             </div>
           </div>
@@ -58,10 +78,11 @@ function About() {
             <div className="ui segment">
               <img src={partnership} alt="image" className="about-icon" />
               <p className="ab3text">
-                Contribute by becoming our partner as we translate rigorous
-                social research into practical tools and guidelines for
-                families, professionals and policymakers, ensuring our research
-                results make a real-world impact.
+                The Foluke Idowu Foundation will continue partnerships
+                especially with the holistic care unit department of
+                neurosurgery university college hospital Ibadan and seek more
+                social Research opportunities that can transform and make
+                independent living for an optimal contribution to society.
               </p>
             </div>
           </div>
@@ -72,3 +93,4 @@ function About() {
 }
 
 export default About;
+
